@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Service\" />
+    <None Remove="Models\" />
+    <None Remove="Service\BookingService.Teacher" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Service\" />
+    <Folder Include="Models\" />
+  </ItemGroup>
+</Project>
